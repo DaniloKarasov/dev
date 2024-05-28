@@ -5,3 +5,10 @@
 .none {
    display: none;
 }
+
+#video {
+   text-align: center;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  
+}
