@@ -32,3 +32,9 @@
       margin-left: 0;
    }
 }
+
+@media (max-width: 315px) {
+   #video {
+      height: 200px;
+   }
+}
