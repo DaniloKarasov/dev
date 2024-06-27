@@ -7,8 +7,26 @@
 }
 
 #video {
-   text-align: center;
-  margin-left: 20%;
-  margin-bottom: 5%;
-  
+   width: 50%;
+   height: 315px;
+   margin-left: 25%;
+   margin-bottom: 5%;
+}
+
+@media (max-width: 770px) {
+   #video {
+      height: 215px;
+   }
+}
+
+@media (max-width: 500px) {
+   #video {
+      height: 165px;
+   }
+}
+
+@media (max-width: 400px) {
+   #video {
+      height: 115px;
+   }
 }
