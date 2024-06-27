@@ -7,26 +7,28 @@
 }
 
 #video {
-   width: 50%;
-   height: 315px;
-   margin-left: 25%;
+   width: 80%;
+   height: 500px;
+   margin-left: 10%;
    margin-bottom: 5%;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 991px) {
    #video {
-      height: 215px;
+      height: 315px;
+      margin-left: 10%;
+   }
+}
+
+@media (max-width: 767px) {
+   #video {
+      height: 250px;
    }
 }
 
 @media (max-width: 500px) {
    #video {
-      height: 165px;
-   }
-}
-
-@media (max-width: 400px) {
-   #video {
-      height: 115px;
+      width: 100%;
+      margin-left: 0;
    }
 }
