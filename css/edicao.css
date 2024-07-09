@@ -13,6 +13,9 @@
    margin-bottom: 5%;
    background-color: aqua;
 }
+h2 {
+   color: aqua;
+}
 
 @media (max-width: 991px) {
    #video {
@@ -20,12 +23,18 @@
       margin-left: 10%;
       background-color: green;
    }
+   h2 {
+      color: green;
+   }
 }
 
 @media (max-width: 767px) {
    #video {
       height: 250px;
       background-color: yellow;
+   }
+   h2 {
+      color: yellow;
    }
 }
 
@@ -35,11 +44,17 @@
       margin-left: 0;
       background-color: red;
    }
+   h2 {
+      color: red;
+   }
 }
 
 @media (max-width: 315px) {
    #video {
       height: 200px;
       background-color: violet;
+   }
+   h2 {
+      color: violet;
    }
 }
